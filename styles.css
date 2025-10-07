@@ -1,68 +1,84 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 40px;
-    background-color: #f9f9f9; /* Cor de fundo clara (cinza muito claro) */
-    color: #333;
-    line-height: 1.6;
-}
-
-h1 {
-    color: #3498db; /* Cor do título h1 alterada para azul */
-    text-align: center;
-    border-bottom: 2px solid #3498db;
-    padding-bottom: 10px;
-}
-
-h2 {
-    color: #34495e;
-    text-align: center; /* Subtítulo h2 centralizado */
-    font-size: 1.5em;
-}
-
-p {
-    color: #666; /* Cor do parágrafo alterada para cinza */
-    font-size: 1.1em;
-    margin: 20px 0;
-    text-align: justify;
-}
-
-ul {
-    list-style-type: disc;
-    margin: 20px 0;
-    padding-left: 40px;
-}
-
-li {
-    margin: 8px 0;
-    font-size: 1em;
-    font-weight: bold; /* Itens da lista em negrito */
-}
-
-a {
-    color: #3498db;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-a:hover {
-    text-decoration: underline;
-    color: #2980b9;
-}
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: white;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-img {
-    max-width: 300px; /* Ajusta o tamanho da imagem para não ficar muito grande (largura máxima) */
-    height: auto; /* Mantém a proporção da imagem */
-    border-radius: 10px; /* Borda arredondada */
-    display: block;
-    margin: 20px auto; /* Centraliza a imagem */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil para melhor visual */
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página de Recuperação</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9; /* Cor de fundo clara (cinza muito claro) */
+            color: #333;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #3498db; /* Cor do título h1 alterada para azul */
+            text-align: center;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            text-align: center; /* Subtítulo h2 centralizado */
+            font-size: 1.5em;
+        }
+        p {
+            color: #666; /* Cor do parágrafo alterada para cinza */
+            font-size: 1.1em;
+            margin: 20px 0;
+            text-align: justify;
+        }
+        ul {
+            list-style-type: disc;
+            margin: 20px 0;
+            padding-left: 40px;
+        }
+        li {
+            margin: 8px 0;
+            font-size: 1em;
+            font-weight: bold; /* Itens da lista em negrito */
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #2980b9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            max-width: 300px; /* Ajusta o tamanho da imagem para não ficar muito grande (largura máxima) */
+            height: auto; /* Mantém a proporção da imagem */
+            border-radius: 10px; /* Borda arredondada */
+            display: block;
+            margin: 20px auto; /* Centraliza a imagem */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil para melhor visual */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Minha Página de Recuperação</h1>
+        <h2>João Arthur Loss Taques Souza</h2>
+        <!-- Imagem inserida aqui, usando uma placeholder para exemplo. Substitua o src por uma URL real de imagem se desejar. -->
+        <img src="https://via.placeholder.com/300x200/3498db/ffffff?text=Minha+Imagem+de+Exemplo" alt="Imagem de exemplo para a página">
+        <p> Para mim é importante estudar pensamento computacional pois é interessante sabermos mais sobre a computação e as tecnologias</p>
+        <ul>
+            <li>O Html é a parte dos códigos;</li>
+            <li>O css é a parte visual e artistica do código;</li>
+            <li>o html e o css são elemtos diferentes na computação, mas ambos se completam.</li>
+        </ul>
+        <p>Visite meu <a href="https://github.com/joaoloss10">GitHub</a> para mais projetos.</p>
+    </div>
+</body>
+</html>
